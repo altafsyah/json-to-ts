@@ -1,0 +1,12 @@
+[package]
+name = "json-to-ts"
+version = "0.1.0"
+edition = "2021"
+description = "Convert JSON to TypeScript interfaces"
+license = "MIT"
+repository = "https://github.com/yourusername/json-to-ts"
+keywords = ["json", "typescript", "cli", "codegen"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+serde_json = "1"
