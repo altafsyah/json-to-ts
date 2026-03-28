@@ -1,8 +1,6 @@
 # json-to-ts
 
-A fast, zero-config CLI tool that converts JSON into TypeScript interfaces. Pipe any JSON in, get clean `.ts` interfaces out.
-
-Built in Rust with a single dependency (`serde_json`) — instant startup, no runtime needed.
+A fast, zero-config CLI tool that converts JSON into TypeScript interfaces. Pipe any JSON in get clean `.ts` interfaces out.
 
 ## Features
 
@@ -66,7 +64,7 @@ sudo apt install xclip libnotify-bin
 cat data.json | json-to-ts
 
 # Inline JSON
-echo '{"id": 1, "name": "Altaf"}' | json-to-ts
+echo '{"id": 1, "name": "John Doe"}' | json-to-ts
 
 # Copy output to clipboard (Linux/X11)
 cat data.json | json-to-ts | xclip -selection clipboard
